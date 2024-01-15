@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: 71e9a1c1deab23c429e4238f6f78601b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638409154261910563
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Prota_Frame_0
+    originalName: 
+    pivot: {x: 0.61904764, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 4
+      width: 21
+      height: 32
+    spriteID: d2102c2a9f093d44e8967ee2396b1da2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 4}
+  - name: Prota_Frame_11
+    originalName: 
+    pivot: {x: 0.61904764, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 44
+      width: 21
+      height: 32
+    spriteID: 4e920bdb60bb8b04e9aa9d3ed73e0717
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 44}
+  - name: Prota_Frame_15
+    originalName: 
+    pivot: {x: 0.5909091, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 202
+      width: 22
+      height: 32
+    spriteID: 4d3ce2e05f8647a4690e9c4269fb4be1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 202}
+  - name: Prota_Frame_17
+    originalName: 
+    pivot: {x: 0.61904764, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 124
+      width: 21
+      height: 31
+    spriteID: 1e08229afb36bea43ad63a8cb8dfbaf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 124}
+  - name: Prota_Frame_19
+    originalName: 
+    pivot: {x: 0.61904764, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 84
+      width: 21
+      height: 32
+    spriteID: 3d0c23e7daad43f47b2e370a79b12547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 84}
+  - name: Prota_Frame_1
+    originalName: 
+    pivot: {x: 0.5714286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 163
+      width: 21
+      height: 31
+    spriteID: 966b33904bef6534dbd992a02b4281d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 163}
+  - name: Prota_Frame_2
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 163
+      width: 24
+      height: 31
+    spriteID: 5577f7992e48ebe4b8f42f8aafac94cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 163}
+  - name: Prota_Frame_3
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.06451613}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 185
+      width: 27
+      height: 31
+    spriteID: d6e809bdd6ac27442a1883d89cc9515b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 185}
+  - name: Prota_Frame_4
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 202
+      width: 20
+      height: 31
+    spriteID: c8d3769266b96af45932216dc79de275
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 202}
+  - name: Prota_Frame_5
+    originalName: 
+    pivot: {x: 0.53333336, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 166
+      width: 15
+      height: 31
+    spriteID: cc0da26241c093e40b1efa8b452a261a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 166}
+  - name: Prota_Frame_6
+    originalName: 
+    pivot: {x: 0.5769231, y: -0.06451613}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 42
+      width: 26
+      height: 31
+    spriteID: 014be920d2e3d634784e65dc98f990b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 42}
+  - name: Prota_Frame_7
+    originalName: 
+    pivot: {x: 0.65217394, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 81
+      width: 23
+      height: 34
+    spriteID: c33ae178d39dfa14cbc020f2cf01077b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 81}
+  - name: Prota_Frame_8
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 81
+      width: 15
+      height: 35
+    spriteID: 2efa2ea52dc22454c9920de196c8e826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 81}
+  - name: Prota_Frame_9
+    originalName: 
+    pivot: {x: 0.4666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 124
+      width: 15
+      height: 34
+    spriteID: 539fac01ec585f740a379fb359640202
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 124}
+  - name: Prota_Frame_10
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 143
+      width: 26
+      height: 34
+    spriteID: 12561bf81fb50cb4b8902e606d500f45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 143}
+  - name: Prota_Frame_12
+    originalName: 
+    pivot: {x: 0.4117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 41
+      width: 17
+      height: 32
+    spriteID: 34decfb6eb898fa4181fd9bf68b82286
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 41}
+  - name: Prota_Frame_13
+    originalName: 
+    pivot: {x: 0.54838705, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 103
+      width: 31
+      height: 32
+    spriteID: 4599256af3facee4ca7b394e97edd4a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 103}
+  - name: Prota_Frame_14
+    originalName: 
+    pivot: {x: 0.7083334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 123
+      width: 24
+      height: 32
+    spriteID: 2d75f31debd585c42842aa248df32292
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 123}
+  - name: Prota_Frame_16
+    originalName: 
+    pivot: {x: 0.3125, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 44
+    spriteID: dabf479abda264d4a900ff9ea3e21894
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Prota_Frame_18
+    originalName: 
+    pivot: {x: 0.3703704, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 27
+      height: 30
+    spriteID: 55f869aefe9fd934bafc67cac0ae44dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: Prota_Frame_18
+    originalName: 
+    pivot: {x: 0.3214286, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 28
+      height: 39
+    spriteID: ff470deec98e54d4f8bc0b0d9001a766
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
+  - name: Prota_Frame_20
+    originalName: 
+    pivot: {x: 0.4, y: -0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 4
+      width: 20
+      height: 29
+    spriteID: 29b888381156ec44e9bc7628fe46be4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 589839554
+    name: Prota
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Prota_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 19
+        y: 0
+        width: 21
+        height: 32
+      spriteId: d2102c2a9f093d44e8967ee2396b1da2
+    - name: Prota_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 19
+        y: 0
+        width: 21
+        height: 32
+      spriteId: 4e920bdb60bb8b04e9aa9d3ed73e0717
+    - name: Prota_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 19
+        y: 0
+        width: 22
+        height: 32
+      spriteId: 4d3ce2e05f8647a4690e9c4269fb4be1
+    - name: Prota_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 19
+        y: 0
+        width: 21
+        height: 31
+      spriteId: 1e08229afb36bea43ad63a8cb8dfbaf7
+    - name: Prota_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 19
+        y: 0
+        width: 21
+        height: 32
+      spriteId: 3d0c23e7daad43f47b2e370a79b12547
+    - name: Prota_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 20
+        y: 0
+        width: 21
+        height: 31
+      spriteId: 966b33904bef6534dbd992a02b4281d5
+    - name: Prota_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 0
+        width: 24
+        height: 31
+      spriteId: 5577f7992e48ebe4b8f42f8aafac94cd
+    - name: Prota_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 17
+        y: 2
+        width: 27
+        height: 31
+      spriteId: d6e809bdd6ac27442a1883d89cc9515b
+    - name: Prota_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 20
+        y: 0
+        width: 20
+        height: 31
+      spriteId: c8d3769266b96af45932216dc79de275
+    - name: Prota_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 24
+        y: 0
+        width: 15
+        height: 31
+      spriteId: cc0da26241c093e40b1efa8b452a261a
+    - name: Prota_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 17
+        y: 2
+        width: 26
+        height: 31
+      spriteId: 014be920d2e3d634784e65dc98f990b3
+    - name: Prota_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 17
+        y: 0
+        width: 23
+        height: 34
+      spriteId: c33ae178d39dfa14cbc020f2cf01077b
+    - name: Prota_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 22
+        y: 0
+        width: 15
+        height: 35
+      spriteId: 2efa2ea52dc22454c9920de196c8e826
+    - name: Prota_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 25
+        y: 0
+        width: 15
+        height: 34
+      spriteId: 539fac01ec585f740a379fb359640202
+    - name: Prota_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 22
+        y: 0
+        width: 26
+        height: 34
+      spriteId: 12561bf81fb50cb4b8902e606d500f45
+    - name: Prota_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 25
+        y: 0
+        width: 17
+        height: 32
+      spriteId: 34decfb6eb898fa4181fd9bf68b82286
+    - name: Prota_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 15
+        y: 0
+        width: 31
+        height: 32
+      spriteId: 4599256af3facee4ca7b394e97edd4a3
+    - name: Prota_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 15
+        y: 0
+        width: 24
+        height: 32
+      spriteId: 2d75f31debd585c42842aa248df32292
+    - name: Prota_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 22
+        y: 0
+        width: 32
+        height: 44
+      spriteId: dabf479abda264d4a900ff9ea3e21894
+    - name: Prota_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 22
+        y: 0
+        width: 27
+        height: 30
+      spriteId: 55f869aefe9fd934bafc67cac0ae44dc
+    - name: Prota_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 23
+        y: 0
+        width: 28
+        height: 39
+      spriteId: ff470deec98e54d4f8bc0b0d9001a766
+    - name: Prota_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 24
+        y: 5
+        width: 20
+        height: 29
+      spriteId: 29b888381156ec44e9bc7628fe46be4b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

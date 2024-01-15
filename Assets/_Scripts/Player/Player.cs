@@ -4,21 +4,30 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    //Movimentação
+    [SerializeField] float speed = 5f;
+    [SerializeField] float jumpForce = 3.5f;
+
+    //Dash
+    [SerializeField] private float dashTime;
+    [SerializeField] private float dashPower;
+    [SerializeField] private float dashCooldown;
+    private bool isDashing = false;
+    private bool canDash = true;
+
+    //Objetos
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private Transform attackHitbox;
     PlayerAnimationManager animationManager;
-
-    [SerializeField] float speed = 5f; // Velocidade de movimentação do jogador
-    [SerializeField] float jumpForce = 3.5f; // Força do pulo
-    [SerializeField] float dashTime = 1f;
-
     private Rigidbody2D rb;
     private BoxCollider2D coll;
     private Animator animator;
     private SpriteRenderer sr;
+    [HideInInspector] public MovementState actualState;
 
-    [SerializeField] private LayerMask groundLayer;
-
+    //Combo
+    private bool isAttacking = false;
     int comboCount;
-    [SerializeField] private bool isAttacking = false;
 
     void Start()
     {
@@ -28,52 +37,65 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
     }
-
-    void Update()
+    private void FixedUpdate()
     {
+        if (isAttacking) return;
+        if (isDashing) return;
+
         // Movimentação horizontal
+
         float horizontalInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+
+        if (rb.velocity.x > 0)
+        {
+            sr.flipX = false;
+            attackHitbox.rotation = Quaternion.Euler(0f, -0, 0f);
+        }
+        else if (rb.velocity.x < 0)
+        {
+            sr.flipX = true;
+            attackHitbox.rotation = Quaternion.Euler(0f, -180f, 0f);
+        }
+
+    }
+    void Update()
+    {
+        if (isDashing) return;
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             animationManager.JumpAnimation();
         }
+        //Dash
+        if (Input.GetButtonDown("Dash") && canDash)
+        {
+            //Debug.Log("Dash");
+            StartCoroutine(Dash());
+        }
         UpdateAnimations();
     }
 
     private void UpdateAnimations()
     {
-        //AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        //if (!stateInfo.IsName("Attack01") || !stateInfo.IsName("Attack02") || !stateInfo.IsName("Attack03")) FinishCombo();
+        if (isAttacking) return;
 
-        MovementState state;
-
-        //Dash
-        if (Input.GetButtonDown("Dash"))
+        MovementState state = MovementState.Idle;
+        //Andar
+        if (rb.velocity.x > 0 && !isDashing && IsGrounded())
+        {
+            state = MovementState.Walking;
+        }
+        else if (rb.velocity.x < 0 && !isDashing && IsGrounded())
+        {
+            state = MovementState.Walking;
+        }
+        else if (isDashing)
         {
             state = MovementState.Dashing;
-            animationManager.DashAnimation();
-            Debug.Log("Dash");
         }
-
-        //if (isAttacking) return;
-
-        //Andar
-        if (rb.velocity.x > 0)
-        {
-            state = MovementState.Walking;
-            animationManager.WalkAnimation();
-            sr.flipX = false;
-        }
-        else if (rb.velocity.x < 0)
-        {
-            state = MovementState.Walking;
-            animationManager.WalkAnimation();
-            sr.flipX = true;
-        }
-        else
+        else if (rb.velocity.x == 0 && !isDashing && !isAttacking)
         {
             state = MovementState.Idle;
         }
@@ -91,23 +113,33 @@ public class Player : MonoBehaviour
         //Combo
         if (Input.GetButtonDown("Attack") && !isAttacking)
         {
-            Debug.Log("Atacou");
-            isAttacking = true;
-            switch (comboCount)
-            {
-                case 0:
-                    state = MovementState.Attack01;
-                    break;
-                case 1:
-                    state = MovementState.Attack02;
-                    break;
-                case 2:
-                    state = MovementState.Attack03;
-                    break;
-            }
+            state = ExecuteCombo();
         }
 
-        animator.SetInteger("state", ((int)state));
+        actualState = state;
+        animator.SetInteger("state", (int)state);
+    }
+
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        animator.SetBool("isDashing", isDashing);
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+
+        if (sr.flipX == true) rb.velocity = new Vector2(transform.localScale.x * -dashPower, 0f);
+        else rb.velocity = new Vector2(transform.localScale.x * dashPower, 0f);
+
+        yield return new WaitForSeconds(dashTime);
+
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+        animator.SetBool("isDashing", isDashing);
+
+        yield return new WaitForSeconds(dashCooldown);
+
+        canDash = true;
     }
 
     //Verifica se o player está em contato com o chão
@@ -135,7 +167,42 @@ public class Player : MonoBehaviour
         comboCount = 0;
     }
 
-    private enum MovementState
+    private MovementState ExecuteCombo()
+    {
+        //Debug.Log("Atacou");
+        MovementState state;
+        isAttacking = true;
+
+        if (!IsGrounded())
+        {
+            state = MovementState.JumpAttack;
+            rb.velocity = new Vector2(0f, rb.velocity.y);
+        }
+        else
+        {
+            switch (comboCount)
+            {
+                case 0:
+                    state = MovementState.Attack01;
+                    break;
+                case 1:
+                    state = MovementState.Attack02;
+                    break;
+                case 2:
+                    state = MovementState.Attack03;
+                    break;
+                default:
+                    state = MovementState.Idle;
+                    break;
+            }
+        }
+
+        return state;
+    }
+
+
+
+    public enum MovementState
     {
         Idle,
         Walking,
@@ -145,5 +212,6 @@ public class Player : MonoBehaviour
         Attack01,
         Attack02,
         Attack03,
+        JumpAttack,
     }
 }
