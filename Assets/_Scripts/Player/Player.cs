@@ -83,13 +83,9 @@ public class Player : MonoBehaviour
 
         MovementState state = MovementState.Idle;
         //Andar
-        if (rb.velocity.x > 0 && !isDashing && IsGrounded())
+        if (rb.velocity.x > 1 || rb.velocity.x < -1)
         {
-            state = MovementState.Walking;
-        }
-        else if (rb.velocity.x < 0 && !isDashing && IsGrounded())
-        {
-            state = MovementState.Walking;
+            if (!isDashing && IsGrounded() && !isAttacking) state = MovementState.Walking;
         }
         else if (isDashing)
         {
@@ -113,6 +109,7 @@ public class Player : MonoBehaviour
         //Combo
         if (Input.GetButtonDown("Attack") && !isAttacking)
         {
+            rb.velocity = new Vector2(0f,rb.velocity.y);
             state = ExecuteCombo();
         }
 
