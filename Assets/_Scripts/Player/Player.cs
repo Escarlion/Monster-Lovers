@@ -6,7 +6,16 @@ public class Player : MonoBehaviour
 {
     //Movimentação
     [SerializeField] float speed = 5f;
+
     [SerializeField] float jumpForce = 3.5f;
+    [SerializeField] private float jumpForceLimit = 2f;
+    [SerializeField] private float _jumpForceMultiplier = 1f;
+    private float jumpForceMultiplier = 1f;
+    private float coyoteTime = 0.2f;
+    private float coyoteTimeCounter;
+    private bool isJumping = false;
+    private float fallTime = 0.65f;
+    private float fallMultiplier;
 
     //Dash
     [SerializeField] private float dashTime;
@@ -63,11 +72,53 @@ public class Player : MonoBehaviour
     {
         if (isDashing) return;
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        //controladores dos timers do coyotefall e da queda lenta
+        if (IsGrounded())
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animationManager.JumpAnimation();
+            coyoteTimeCounter = coyoteTime;
+            fallMultiplier = fallTime;
         }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+        //aumenta a força do jogador conforme ele segura o botão, até certo limite
+        if(Input.GetButton("Jump") && IsGrounded())
+        {
+            if (jumpForceMultiplier < jumpForceLimit) jumpForceMultiplier += Time.deltaTime;
+        }
+
+        if (Input.GetButtonUp("Jump") && coyoteTimeCounter > 0f && !isAttacking)
+        {
+            //rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.AddForce(Vector2.up * jumpForce * jumpForceMultiplier, ForceMode2D.Impulse);
+            animationManager.JumpAnimation();
+            jumpForceMultiplier = _jumpForceMultiplier;
+            isJumping = true;
+        }
+        if(isJumping && rb.velocity.y == 0f)
+        {
+            isJumping = false;
+        }
+        //diminui a velocidade do jogador quando chega no pico do pulo
+        if (isJumping && rb.velocity.y < 0f)
+        {
+            if (IsGrounded())
+            {
+                rb.gravityScale = 1f;
+                return;
+            }
+            rb.gravityScale = fallMultiplier;
+            if(fallMultiplier < 1)
+            {
+                fallMultiplier += Time.deltaTime;
+            }
+            else
+            {
+                fallMultiplier = 1;
+            }
+        }
+
         //Dash
         if (Input.GetButtonDown("Dash") && canDash)
         {
@@ -164,6 +215,7 @@ public class Player : MonoBehaviour
         comboCount = 0;
     }
 
+    //escolhe o proximo ataque e coloca a animação correta
     private MovementState ExecuteCombo()
     {
         //Debug.Log("Atacou");
