@@ -86,6 +86,11 @@ public class Vlad : Boss
         Invoke(nameof(EndAttack), 1.5f);
     }
 
+    void ShotProjectile(Transform projectileToShot)
+    {
+        Instantiate(projectileToShot, firepoint.position, firepoint.rotation);
+    }
+
     private void Attack01()
     {
         atk1++;

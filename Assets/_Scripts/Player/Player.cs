@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    [SerializeField] int maxLife = 5;
+    int actualLife;
+
     //Movimentação
     [SerializeField] float speed = 5f;
 
@@ -45,6 +49,8 @@ public class Player : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+
+        actualLife = maxLife;
     }
     private void FixedUpdate()
     {
@@ -249,7 +255,19 @@ public class Player : MonoBehaviour
         return state;
     }
 
+    public void TakeDamage()
+    {
+        actualLife--;
 
+        Debug.Log("Player perdeu vida.\nVida atual: "+actualLife);
+
+        if(actualLife <= 0)
+        {
+            Debug.Log("Player morreu");
+            //sequencia de morte
+        }
+        
+    }
 
     public enum MovementState
     {

@@ -6,6 +6,7 @@ public abstract class Boss : MonoBehaviour
 {
     [SerializeField] protected int life;
     [SerializeField] protected float attackWaitTime;
+    [SerializeField] protected Transform firepoint;
 
     protected bool isDead, isAttacking;
 
