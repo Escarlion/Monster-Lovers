@@ -1,0 +1,1704 @@
+fileFormatVersion: 2
+guid: ca7ecb4f7cc1ca94dae2105244d955b9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: confronto_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 320
+      height: 176
+    spriteID: e156cf11ad9b8774d97a30418b86bd36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: confronto_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 188
+      width: 320
+      height: 176
+    spriteID: e94946cfbd98e804399a6919976a1b5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 188}
+  - name: confronto_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 372
+      width: 320
+      height: 176
+    spriteID: 25512c67d0c928249bf16803b1ca3a79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 372}
+  - name: confronto_Frame_0
+    originalName: 
+    pivot: {x: 1.1818181, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 819
+      width: 33
+      height: 32
+    spriteID: 7184a4d2ed2cf6f47b184c3c07a0c693
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 819}
+  - name: confronto_Frame_1
+    originalName: 
+    pivot: {x: 1.1818181, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 990
+      width: 33
+      height: 30
+    spriteID: 5715d3c236b18b343bad7ae79ac97d4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 990}
+  - name: confronto_Frame_2
+    originalName: 
+    pivot: {x: 1.1818181, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 859
+      width: 33
+      height: 32
+    spriteID: ab6ea99d5cdf26242aa7eedc4aa16537
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 859}
+  - name: confronto_Frame_3
+    originalName: 
+    pivot: {x: 1.1818181, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 739
+      width: 33
+      height: 33
+    spriteID: 89153ad271d20024485abb6417831405
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 739}
+  - name: confronto_Frame_4
+    originalName: 
+    pivot: {x: 1.1818181, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 780
+      width: 33
+      height: 33
+    spriteID: d00fde85c83169f4886c8d4cd2a9078a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 780}
+  - name: confronto_Frame_5
+    originalName: 
+    pivot: {x: 0.60377353, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 516
+      width: 53
+      height: 52
+    spriteID: 1b5993f0af9092e47b7d604521a7b2a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 516}
+  - name: confronto_Frame_6
+    originalName: 
+    pivot: {x: 0.38554215, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 372
+      width: 83
+      height: 33
+    spriteID: 6eee6e22876be154f8a70b6d7e4e881c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 372}
+  - name: confronto_Frame_7
+    originalName: 
+    pivot: {x: 0.40206182, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 924
+      width: 97
+      height: 32
+    spriteID: c0b3b7b22ad7fd6469207964f202fccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 924}
+  - name: confronto_Frame_8
+    originalName: 
+    pivot: {x: 0.5066667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 821
+      width: 75
+      height: 53
+    spriteID: 431f93137727d06438f92ee014ac7c4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 821}
+  - name: confronto_Frame_9
+    originalName: 
+    pivot: {x: 0.7192983, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 576
+      width: 57
+      height: 46
+    spriteID: bf70745b367652545804260220fa743e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 576}
+  - name: confronto_Frame_11
+    originalName: 
+    pivot: {x: 0.78688526, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 679
+      width: 61
+      height: 50
+    spriteID: 137fdbbe7bedd964f96b79f59ce3e8bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 248, y: 679}
+  - name: confronto_Frame_12
+    originalName: 
+    pivot: {x: 0.8909091, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 761
+      width: 55
+      height: 53
+    spriteID: 630aaf722bdf0c4488e6b3920ba0b20b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 761}
+  - name: confronto_Frame_32
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 372
+      width: 60
+      height: 57
+    spriteID: 77d951860c7f97742bad52b6ff51db1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 372}
+  - name: confronto_Frame_33
+    originalName: 
+    pivot: {x: 0.5063291, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 398
+      y: 188
+      width: 79
+      height: 57
+    spriteID: 81033b4c8b391a141874a17269e5851d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 398, y: 188}
+  - name: confronto_Frame_34
+    originalName: 
+    pivot: {x: 0.5063291, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 761
+      width: 79
+      height: 57
+    spriteID: 1c5867e189f4cba4492c707be4b6aa1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 761}
+  - name: confronto_Frame_35
+    originalName: 
+    pivot: {x: 0.3773585, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 882
+      width: 106
+      height: 34
+    spriteID: 1641cdb16299dcb4882621a1133bb6d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 882}
+  - name: confronto_Frame_36
+    originalName: 
+    pivot: {x: 0.32, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 739
+      width: 125
+      height: 33
+    spriteID: 5d1730d70c009ee478c39e6f20ed75b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 739}
+  - name: confronto_Frame_37
+    originalName: 
+    pivot: {x: 0.2962963, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 867
+      width: 135
+      height: 33
+    spriteID: 76722ed94540ffe4d9aefcf131f1b26e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 867}
+  - name: confronto_Frame_38
+    originalName: 
+    pivot: {x: 0.32, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 780
+      width: 125
+      height: 33
+    spriteID: 199e7b9075a738241bc5644fa55f0560
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 780}
+  - name: confronto_Frame_39
+    originalName: 
+    pivot: {x: 0.3448276, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 969
+      width: 116
+      height: 33
+    spriteID: 4cfb2156b951c4147a93f5815d4e5552
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 969}
+  - name: confronto_Frame_40
+    originalName: 
+    pivot: {x: 0.32, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 102
+      width: 125
+      height: 40
+    spriteID: bbec1a8dc37463f4098da4bae16940ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 102}
+  - name: confronto_Frame_41
+    originalName: 
+    pivot: {x: 0.28985506, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 679
+      width: 138
+      height: 33
+    spriteID: f66895475d1665f41a915ec691a70906
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 679}
+  - name: confronto_Frame_42
+    originalName: 
+    pivot: {x: 0.2877698, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 638
+      width: 139
+      height: 33
+    spriteID: aa6d222e1255fb945bf6ae22fff02ad5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 638}
+  - name: confronto_Frame_43
+    originalName: 
+    pivot: {x: 0.2919708, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 720
+      width: 137
+      height: 33
+    spriteID: 8c6e11676ab551442b6fb06ad363bc2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 720}
+  - name: confronto_Frame_44
+    originalName: 
+    pivot: {x: 0.2777778, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 556
+      width: 144
+      height: 33
+    spriteID: a38db9205be67614aa814f625ba187bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 556}
+  - name: confronto_Frame_45
+    originalName: 
+    pivot: {x: 0.2777778, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 597
+      width: 144
+      height: 33
+    spriteID: 28db054c34af4844da3837a9398c9dcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 597}
+  - name: confronto_Frame_46
+    originalName: 
+    pivot: {x: 0.2739726, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 285
+      width: 146
+      height: 34
+    spriteID: d44e75eb7e550a349803083af7260dae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 285}
+  - name: confronto_Frame_47
+    originalName: 
+    pivot: {x: 0.2739726, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 327
+      width: 146
+      height: 34
+    spriteID: 457590170d039c640a107991d93a523a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 327}
+  - name: confronto_Frame_48
+    originalName: 
+    pivot: {x: 0.2962963, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 908
+      width: 135
+      height: 33
+    spriteID: 88b6e7f29db533347ab5c68c3629479b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 908}
+  - name: confronto_Frame_49
+    originalName: 
+    pivot: {x: 0.29850745, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 556
+      width: 134
+      height: 33
+    spriteID: f0f1ffbda0fc938418de5354edcb0be4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 556}
+  - name: confronto_Frame_50
+    originalName: 
+    pivot: {x: 0.29850745, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 597
+      width: 134
+      height: 33
+    spriteID: 2be816ce5daea4d4db34f3524c416742
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 597}
+  - name: confronto_Frame_51
+    originalName: 
+    pivot: {x: 0.29850745, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 638
+      width: 134
+      height: 33
+    spriteID: c07552910af86414fa13bd58d42f0953
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 638}
+  - name: confronto_Frame_52
+    originalName: 
+    pivot: {x: 0.27586207, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 57
+      width: 145
+      height: 37
+    spriteID: 3b400d712f571304f82ec2261d8082f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 57}
+  - name: confronto_Frame_53
+    originalName: 
+    pivot: {x: 0.27027026, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 4
+      width: 148
+      height: 45
+    spriteID: c432c2ec6be62934b86a65620ed488c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 4}
+  - name: confronto_Frame_54
+    originalName: 
+    pivot: {x: 0.29411766, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 826
+      width: 136
+      height: 33
+    spriteID: 25f1273a2f81f4744a9de1e38a5afab7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 826}
+  - name: confronto_Frame_55
+    originalName: 
+    pivot: {x: 0.2962963, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 949
+      width: 135
+      height: 33
+    spriteID: 79443a896573bb646a2b7af848d2762d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 949}
+  - name: confronto_Frame_13
+    originalName: 
+    pivot: {x: 1.0652173, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 688
+      width: 46
+      height: 38
+    spriteID: 24dd7344eecb8f84aa486faffb9fcf69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 688}
+  - name: confronto_Frame_14
+    originalName: 
+    pivot: {x: 1.4193547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 776
+      width: 31
+      height: 35
+    spriteID: fcc7679f2db0344408bff518e9f69fe6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 776}
+  - name: confronto_Frame_15
+    originalName: 
+    pivot: {x: 1.2682927, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 465
+      y: 102
+      width: 41
+      height: 35
+    spriteID: 4149daa915f525d4cacff2528370571d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 465, y: 102}
+  - name: confronto_Frame_16
+    originalName: 
+    pivot: {x: 1.263158, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 280
+      y: 969
+      width: 38
+      height: 36
+    spriteID: 801a915badcf1734d86e57835051522f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 280, y: 969}
+  - name: confronto_Frame_17
+    originalName: 
+    pivot: {x: 1.5333335, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 899
+      width: 30
+      height: 34
+    spriteID: 1695741d69782c04c815f192e9408e85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 899}
+  - name: confronto_Frame_18
+    originalName: 
+    pivot: {x: 1.5333335, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 941
+      width: 30
+      height: 33
+    spriteID: 9bc1874995424ce4a94a7b7f8bf9049d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 941}
+  - name: confronto_Frame_20
+    originalName: 
+    pivot: {x: 1.2291665, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 437
+      width: 48
+      height: 71
+    spriteID: 56819bbed72ceba4e9eb06f5711bf052
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 437}
+  - name: confronto_Frame_21
+    originalName: 
+    pivot: {x: 1.2244898, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 882
+      width: 49
+      height: 79
+    spriteID: 1076322ae58dd0045b686daf5fbb6825
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 882}
+  - name: confronto_Frame_22
+    originalName: 
+    pivot: {x: 1.1896552, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 188
+      width: 58
+      height: 89
+    spriteID: e81231e556d21004880b0e521d496581
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 188}
+  - name: confronto_Frame_23
+    originalName: 
+    pivot: {x: 1.2600001, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 630
+      width: 50
+      height: 50
+    spriteID: 91c956c8ce2f7f449947affb374f2c27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 630}
+  - name: confronto_Frame_24
+    originalName: 
+    pivot: {x: 0.9749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 734
+      width: 40
+      height: 34
+    spriteID: 40f79545fa3ab864abfbd4169cbb16b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 734}
+  - name: confronto_Frame_25
+    originalName: 
+    pivot: {x: 0.5833333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 150
+      width: 72
+      height: 28
+    spriteID: a795a5cb5764eeb4f8a0d8914e1b212b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 150}
+  - name: confronto_Frame_26
+    originalName: 
+    pivot: {x: 0.5833333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 990
+      width: 72
+      height: 29
+    spriteID: 87cf8633270db0541a3d780757eb673b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 990}
+  - name: confronto_Frame_27
+    originalName: 
+    pivot: {x: 0.50602406, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 821
+      width: 83
+      height: 45
+    spriteID: 329a0d66a168cad42acfec84feb46142
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 821}
+  - name: confronto_Frame_28
+    originalName: 
+    pivot: {x: 0.47619048, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 679
+      width: 84
+      height: 52
+    spriteID: 769c7f9a08e5fbf4a8b6590712ad0563
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 679}
+  - name: confronto_Frame_30
+    originalName: 
+    pivot: {x: 0.55263156, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 413
+      width: 76
+      height: 33
+    spriteID: 0548080f8c4f1c64a8135852ed35510b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 413}
+  - name: confronto_Frame_29
+    originalName: 
+    pivot: {x: -1.066667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 491
+      y: 372
+      width: 15
+      height: 33
+    spriteID: b1bb4ed8f5ecdb148b54d04f338a614b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 491, y: 372}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1157875222
+    name: confronto
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: confronto_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 320
+        height: 176
+      spriteId: e156cf11ad9b8774d97a30418b86bd36
+    - name: confronto_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 320
+        height: 176
+      spriteId: e94946cfbd98e804399a6919976a1b5e
+    - name: confronto_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 320
+        height: 176
+      spriteId: 25512c67d0c928249bf16803b1ca3a79
+    - name: confronto_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 121
+        y: 0
+        width: 33
+        height: 32
+      spriteId: 7184a4d2ed2cf6f47b184c3c07a0c693
+    - name: confronto_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 121
+        y: 0
+        width: 33
+        height: 30
+      spriteId: 5715d3c236b18b343bad7ae79ac97d4f
+    - name: confronto_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 121
+        y: 0
+        width: 33
+        height: 32
+      spriteId: ab6ea99d5cdf26242aa7eedc4aa16537
+    - name: confronto_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 121
+        y: 0
+        width: 33
+        height: 33
+      spriteId: 89153ad271d20024485abb6417831405
+    - name: confronto_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 121
+        y: 0
+        width: 33
+        height: 33
+      spriteId: d00fde85c83169f4886c8d4cd2a9078a
+    - name: confronto_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 128
+        y: 0
+        width: 53
+        height: 52
+      spriteId: 1b5993f0af9092e47b7d604521a7b2a6
+    - name: confronto_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 128
+        y: 0
+        width: 83
+        height: 33
+      spriteId: 6eee6e22876be154f8a70b6d7e4e881c
+    - name: confronto_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 121
+        y: 0
+        width: 97
+        height: 32
+      spriteId: c0b3b7b22ad7fd6469207964f202fccc
+    - name: confronto_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 122
+        y: 0
+        width: 75
+        height: 53
+      spriteId: 431f93137727d06438f92ee014ac7c4d
+    - name: confronto_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 119
+        y: 0
+        width: 57
+        height: 46
+      spriteId: bf70745b367652545804260220fa743e
+    - name: confronto_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 112
+        y: 0
+        width: 61
+        height: 50
+      spriteId: 137fdbbe7bedd964f96b79f59ce3e8bd
+    - name: confronto_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 111
+        y: 0
+        width: 55
+        height: 53
+      spriteId: 630aaf722bdf0c4488e6b3920ba0b20b
+    - name: confronto_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 120
+        y: 0
+        width: 60
+        height: 57
+      spriteId: 77d951860c7f97742bad52b6ff51db1f
+    - name: confronto_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 120
+        y: 0
+        width: 79
+        height: 57
+      spriteId: 81033b4c8b391a141874a17269e5851d
+    - name: confronto_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 120
+        y: 0
+        width: 79
+        height: 57
+      spriteId: 1c5867e189f4cba4492c707be4b6aa1d
+    - name: confronto_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 120
+        y: 0
+        width: 106
+        height: 34
+      spriteId: 1641cdb16299dcb4882621a1133bb6d1
+    - name: confronto_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 120
+        y: 0
+        width: 125
+        height: 33
+      spriteId: 5d1730d70c009ee478c39e6f20ed75b5
+    - name: confronto_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 120
+        y: 0
+        width: 135
+        height: 33
+      spriteId: 76722ed94540ffe4d9aefcf131f1b26e
+    - name: confronto_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 120
+        y: 0
+        width: 125
+        height: 33
+      spriteId: 199e7b9075a738241bc5644fa55f0560
+    - name: confronto_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 120
+        y: 0
+        width: 116
+        height: 33
+      spriteId: 4cfb2156b951c4147a93f5815d4e5552
+    - name: confronto_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 120
+        y: 0
+        width: 125
+        height: 40
+      spriteId: bbec1a8dc37463f4098da4bae16940ec
+    - name: confronto_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 120
+        y: 0
+        width: 138
+        height: 33
+      spriteId: f66895475d1665f41a915ec691a70906
+    - name: confronto_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 120
+        y: 0
+        width: 139
+        height: 33
+      spriteId: aa6d222e1255fb945bf6ae22fff02ad5
+    - name: confronto_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 120
+        y: 0
+        width: 137
+        height: 33
+      spriteId: 8c6e11676ab551442b6fb06ad363bc2c
+    - name: confronto_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 120
+        y: 0
+        width: 144
+        height: 33
+      spriteId: a38db9205be67614aa814f625ba187bf
+    - name: confronto_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 120
+        y: 0
+        width: 144
+        height: 33
+      spriteId: 28db054c34af4844da3837a9398c9dcd
+    - name: confronto_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 120
+        y: 0
+        width: 146
+        height: 34
+      spriteId: d44e75eb7e550a349803083af7260dae
+    - name: confronto_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 120
+        y: 0
+        width: 146
+        height: 34
+      spriteId: 457590170d039c640a107991d93a523a
+    - name: confronto_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 120
+        y: 0
+        width: 135
+        height: 33
+      spriteId: 88b6e7f29db533347ab5c68c3629479b
+    - name: confronto_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 120
+        y: 0
+        width: 134
+        height: 33
+      spriteId: f0f1ffbda0fc938418de5354edcb0be4
+    - name: confronto_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 120
+        y: 0
+        width: 134
+        height: 33
+      spriteId: 2be816ce5daea4d4db34f3524c416742
+    - name: confronto_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 120
+        y: 0
+        width: 134
+        height: 33
+      spriteId: c07552910af86414fa13bd58d42f0953
+    - name: confronto_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 120
+        y: 0
+        width: 145
+        height: 37
+      spriteId: 3b400d712f571304f82ec2261d8082f0
+    - name: confronto_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 120
+        y: 0
+        width: 148
+        height: 45
+      spriteId: c432c2ec6be62934b86a65620ed488c4
+    - name: confronto_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 120
+        y: 0
+        width: 136
+        height: 33
+      spriteId: 25f1273a2f81f4744a9de1e38a5afab7
+    - name: confronto_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 120
+        y: 0
+        width: 135
+        height: 33
+      spriteId: 79443a896573bb646a2b7af848d2762d
+    - name: confronto_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 111
+        y: 0
+        width: 46
+        height: 38
+      spriteId: 24dd7344eecb8f84aa486faffb9fcf69
+    - name: confronto_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 116
+        y: 0
+        width: 31
+        height: 35
+      spriteId: fcc7679f2db0344408bff518e9f69fe6
+    - name: confronto_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 108
+        y: 0
+        width: 41
+        height: 35
+      spriteId: 4149daa915f525d4cacff2528370571d
+    - name: confronto_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 112
+        y: 0
+        width: 38
+        height: 36
+      spriteId: 801a915badcf1734d86e57835051522f
+    - name: confronto_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 114
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 1695741d69782c04c815f192e9408e85
+    - name: confronto_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 114
+        y: 0
+        width: 30
+        height: 33
+      spriteId: 9bc1874995424ce4a94a7b7f8bf9049d
+    - name: confronto_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 101
+        y: 0
+        width: 48
+        height: 71
+      spriteId: 56819bbed72ceba4e9eb06f5711bf052
+    - name: confronto_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 100
+        y: 0
+        width: 49
+        height: 79
+      spriteId: 1076322ae58dd0045b686daf5fbb6825
+    - name: confronto_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 91
+        y: 0
+        width: 58
+        height: 89
+      spriteId: e81231e556d21004880b0e521d496581
+    - name: confronto_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 97
+        y: 0
+        width: 50
+        height: 50
+      spriteId: 91c956c8ce2f7f449947affb374f2c27
+    - name: confronto_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 121
+        y: 0
+        width: 40
+        height: 34
+      spriteId: 40f79545fa3ab864abfbd4169cbb16b3
+    - name: confronto_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 118
+        y: 0
+        width: 72
+        height: 28
+      spriteId: a795a5cb5764eeb4f8a0d8914e1b212b
+    - name: confronto_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 118
+        y: 0
+        width: 72
+        height: 29
+      spriteId: 87cf8633270db0541a3d780757eb673b
+    - name: confronto_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 118
+        y: 0
+        width: 83
+        height: 45
+      spriteId: 329a0d66a168cad42acfec84feb46142
+    - name: confronto_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 120
+        y: 0
+        width: 84
+        height: 52
+      spriteId: 769c7f9a08e5fbf4a8b6590712ad0563
+    - name: confronto_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 118
+        y: 0
+        width: 76
+        height: 33
+      spriteId: 0548080f8c4f1c64a8135852ed35510b
+    - name: confronto_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 176
+        y: 0
+        width: 15
+        height: 33
+      spriteId: b1bb4ed8f5ecdb148b54d04f338a614b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 176}

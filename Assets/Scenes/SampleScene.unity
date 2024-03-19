@@ -325,6 +325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184837423}
+  - component: {fileID: 184837424}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -347,6 +348,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &184837424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184837422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44769dda6046e8546878086d830f693f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keysAmount: 5
+  OneErrorMode: 0
+  BarMode: 1
+  targetValue: 100
+  rightValue: 10
+  wrongValue: -20
+  actualValue: 0
+  limitTime: 15
+  timeActuator: 0.5
 --- !u!1 &221036186
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,17 +676,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  velocity: 0.5
-  penetrative: 0
   destroyAfter: 0
+  penetrative: 0
   type: 0
+  velocity: 0.5
   initialPostion: {x: 0, y: 0, z: 0}
   endPosition: {x: 0, y: 0, z: 0}
+  movementDuration: 0
   acelerationRate: 0
   playerDirection: 0
   delayWaitTime: 0
-  movementDuration: 0
   boomerangWaitTime: 0
+  routePositions: []
 --- !u!4 &262260500
 Transform:
   m_ObjectHideFlags: 0

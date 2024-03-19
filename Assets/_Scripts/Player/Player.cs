@@ -42,6 +42,8 @@ public class Player : MonoBehaviour
     private bool isAttacking = false;
     int comboCount;
 
+    bool stopMoviments = false;
+
     void Start()
     {
         animationManager = GetComponent<PlayerAnimationManager>();
@@ -54,6 +56,7 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (stopMoviments) return;
         if (isAttacking) return;
         if (isDashing) return;
 
@@ -76,6 +79,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        if (stopMoviments) return;
         if (isDashing) return;
 
         //controladores dos timers do coyotefall e da queda lenta
@@ -253,6 +257,11 @@ public class Player : MonoBehaviour
         }
 
         return state;
+    }
+
+    public void StopPlayerMoviments(bool var)
+    {
+        stopMoviments = var;
     }
 
     public void TakeDamage()
